@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <components>
+    <component id="SysRoleService"
+          service="ZDSoft.TES.Service.ISysRoleService,ZDSoft.TES.Service"
+          type="ZDSoft.TES.Component.SysRoleComponent,ZDSoft.TES.Component"
+          isTransactional="true">
+    </component>
+
+    <component id="SysUserService"  
+        service="ZDSoft.TES.Service.ISysUserService,ZDSoft.TES.Service"
+        type="ZDSoft.TES.Component.SysUserComponent,ZDSoft.TES.Component"
+        isTransactional="true">
+    </component>    
+  </components>
+</configuration>
